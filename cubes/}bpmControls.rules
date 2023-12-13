@@ -1,6 +1,0 @@
-#Region System
-FEEDSTRINGS;
-SKIPCHECK;
-#EndRegion
-['Current Driver Period'] = S:
-     DB('}bpmControls',!bpmValue,'Current Actual Month') | '-' | DB('}bpmControls',!bpmValue,'Current Actual Year');
